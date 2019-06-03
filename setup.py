@@ -7,7 +7,7 @@ install_requires = [
 
 setup(
     name='django-qiwi-kassa',
-    version='0.1',
+    version='0.2',
     packages=['qiwi_kassa'],
     url='https://github.com/adilkhash/django-qiwi-kassa',
     license='MIT',
