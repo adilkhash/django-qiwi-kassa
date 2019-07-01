@@ -34,6 +34,12 @@ Add to `settings.py` QIWI_KASSA_SECRET_KEY constant:
 QIWI_KASSA_SECRET_KEY = 'QIWI_KASSA_SECRET_KEY'
 ```
 
+### Step 3.
+Apply migrations
+```bash
+python manage.py migrate
+```
+
 ## Payment notifications
 
 If you want to set up POST notifications from Qiwi when payment is received, you have to add `qiwi_kassa.urls` in your project urls:

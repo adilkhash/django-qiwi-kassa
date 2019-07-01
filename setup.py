@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 install_requires = [
     'django>=2.0',
@@ -7,8 +7,8 @@ install_requires = [
 
 setup(
     name='django-qiwi-kassa',
-    version='0.2',
-    packages=['qiwi_kassa'],
+    version='0.3',
+    packages=find_packages(),
     url='https://github.com/adilkhash/django-qiwi-kassa',
     license='MIT',
     author='Adylzhan Khashtamov',
